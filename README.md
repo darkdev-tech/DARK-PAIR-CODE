@@ -1,2 +1,1 @@
-# TOXIC-PAIR-CODE
-Simple Session generator by xhclinton⭐
+Session Generator by 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧😴⭐
