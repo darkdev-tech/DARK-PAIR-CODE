@@ -57,19 +57,23 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id, { text: '' + b64data });
 
                let MBUVI_MD_TEXT = `
-𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿*
- *𝙏𝙤𝙭𝙞𝙘 𝙈𝘿 𝙇𝙊𝙂𝙂𝙀𝘿* 
-______________________________
-╔════◇
+       
+        𝙏𝙤𝙭𝙞𝙘 𝙈𝘿 𝙇𝙊𝙂𝙂𝙀𝘿
+
 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❍ 𝐎𝐰𝐧𝐞𝐫: _https://wa.me/254735342808_
-║❍ 𝐑𝐞𝐩𝐨: _https://github.com/xhclintohn/Toxic-MD_
-║❍ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: _https://chat.whatsapp.com/GoXKLVJgTAAC3556FXkfFI_
-║❍ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19_
-║❍ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/mr.xh_clusive
+> 𝐎𝐰𝐧𝐞𝐫
+https://wa.me/254735342808
+
+> 𝐑𝐞𝐩𝐨 https://github.com/xhclintohn/Toxic-MD
+
+> 𝐖𝐚𝐆𝐫𝐨𝐮𝐩 https://chat.whatsapp.com/GoXKLVJgTAAC3556FXkfFI
+
+> 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥 https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19
+
+> 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 _https://www.instagram.com/xh_clinton
 ______________________________
 
-Don't Forget To Give Star⭐ To My Repo`
+𝐃𝐨𝐧'𝐭 𝐟𝐨𝐫𝐠𝐞𝐭 𝐭𝐨 𝐒𝐭𝐚𝐫 𝐚𝐧𝐝 𝐅𝐨𝐫𝐤 𝐦𝐲 𝐑𝐞𝐩𝐨⚡`
 
  await Pair_Code_By_Mbuvi_Tech.sendMessage(Pair_Code_By_Mbuvi_Tech.user.id,{text:MBUVI_MD_TEXT},{quoted:session})
  
