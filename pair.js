@@ -63,16 +63,15 @@ router.get('/', async (req, res) => {
 
 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 > 𝐎𝐰𝐧𝐞𝐫: 
-_https://wa.me/254759000340_
+_https://wa.me/254735342808_
 
 > 𝐑𝐞𝐩𝐨: 
-_https://github.com/Black-Tappy/Redmi-XMD_
+_https://github.com/xhclintohn/Toxic-MD_
 
 > 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: 
-_hhttps://chat.whatsapp.com/JLVDDZLpcsk2byRMDWf0IR_
+_https://chat.whatsapp.com/GoXKLVJgTAAC3556FXkfFI_
 
-> 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
- _https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10_
+> 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19_
  
 >𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦:
  _https://www.instagram.com/xh_clinton_
