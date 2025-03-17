@@ -71,9 +71,11 @@ _https://github.com/xhclintohn/Toxic-MD_
 > 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: 
 _https://chat.whatsapp.com/GoXKLVJgTAAC3556FXkfFI_
 
-> 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19_
+> 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
+ _https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19_
  
->𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _https://www.instagram.com/xh_clinton_
+>𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦:
+ _https://www.instagram.com/xh_clinton_
 
 
 Don't Forget To Give Star⭐ To My Repo :)`
