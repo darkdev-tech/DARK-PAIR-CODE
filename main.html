@@ -240,49 +240,38 @@
       }
     }
 
-    .telegram-btn-container {
+    /* Updated Telegram and WhatsApp Buttons */
+    .platform-buttons {
       position: fixed;
-      right: 30px;
-      opacity: 0;
-      bottom: -50px;
-      padding: 24px;
-      animation: fade-up 1000ms forwards;
-      animation-delay: 1000ms;
+      bottom: 20px;
+      left: 20px;
+      display: flex;
+      gap: 10px;
     }
 
-    @keyframes fade-up {
-      100% {
-        bottom: 54px;
-        opacity: 1;
-      }
+    .platform-buttons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 24px;
+      color: white;
+      transition: transform 0.2s ease;
     }
 
-    .telegram-btn-container .telegram-btn {
-      font-size: 300px;
-      color: #0000FF;
-      display: inline-block;
-      transition: all 400ms;
+    .platform-buttons a:hover {
+      transform: scale(1.1);
     }
 
-    .telegram-btn-container .telegram-btn:hover {
-      transform: scale(1.2);
+    .whatsapp-btn {
+      background-color: #25D366; /* WhatsApp green */
     }
 
-    .telegram-btn-container span {
-      position: absolute;
-      top: 0;
-      right: 5px;
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      color: #00FFFF;
-      transform: rotateZ(20deg) translateX(10px);
-      opacity: 0;
-      transition: all 400ms;
-    }
-
-    .telegram-btn-container .telegram-btn:hover + span {
-      transform: rotateZ(0deg) translateX(0px);
-      opacity: 1;
+    .telegram-btn {
+      background-color: #0088CC; /* Telegram blue */
     }
   </style>
 </head>
@@ -321,30 +310,14 @@
     </center>
   </div>
 
-  <!-- GetButton.io widget -->
-  <script type="text/javascript">
-    (function () {
-      var options = {
-        sms: "+254735342808", // Sms phone number
-        sms_color: "#129BF4", // Sms button color
-        whatsapp: "+254735342808", // WhatsApp number
-        call_to_action: "Message us", // Call to action
-        button_color: "#FF318E", // Color of button 
-        position: "left", // Position may be 'left' or 'right'
-        order: "sms,whatsapp", // Order of buttons
-        pre_filled_message: "hey  xhclintonv i have come with greetings from your session", // WhatsApp pre-filled message
-      };
-      var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
-      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-  </script>
-  <!-- /GetButton.io widget -->
-
-  <div class="telegram-btn-container">
-    <a class="telegram-btn" href="https://t.me/xhclintonv"><i class="fab fa-telegram"></i></a>
-    <span>telegram Us</span>
+  <!-- Platform Buttons (WhatsApp and Telegram) -->
+  <div class="platform-buttons">
+    <a href="https://wa.me/+254735342808" class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://t.me/xhclintonv" class="telegram-btn">
+      <i class="fab fa-telegram"></i>
+    </a>
   </div>
 </body>
 </html>
